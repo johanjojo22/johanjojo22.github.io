@@ -1,0 +1,91 @@
+.navigasi{
+    background: #D9D9D9;
+    height: calc(100% - 80px) !important;
+    position: fixed;
+    width: 250px;
+    left: 0;
+    overflow-x: hidden;
+    transition: 500ms ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header{
+    height: 80px;
+}
+
+.header button{
+    font-size: 20px;
+    padding: 0;
+    box-shadow: none !important;
+    margin-left: 30px;
+}
+
+.open-btn{
+    display: none;
+}
+
+#main{
+    transition: 500ms ease;
+    margin-left: 250px;
+}
+
+.navigasi ul li a{
+    border-bottom: 1px solid #000 !important;
+    width: 250px !important;
+    padding: 15px 0 15px 20px;
+}
+
+.navigasi ul li a:hover{
+    background: #c1c1c1;
+}
+
+.kontak a{
+    padding: 15px 0;
+    width: 250px;
+    border-top: 1px solid #000;
+}
+
+.kontak a:hover{
+    background: #c1c1c1 !important;
+}
+
+.user-profile button{
+    background: #343a40;
+    padding: 5px 15px;
+    border-radius: 20px;
+    box-shadow: none;
+    border: none;
+}
+
+.form-signin {
+    max-width: 350px;
+    margin: auto;
+}
+
+.form-signin form{
+    border-radius: 20px;
+}
+
+.form-signin form h1{
+    background: #FFF200;
+    border-radius: 18px 18px 0 0;
+}
+
+.form-signin form label{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.form-signin button{
+    background: #fff200;
+}
+
+.form-signin input{
+    border-radius: 8px;
+    box-shadow: none !important;
+    border: none;
+}
